@@ -1,0 +1,59 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userinfo {
+    display: flex;
+    width: 100%;
+    max-width: 588px;
+    flex-direction: column;
+}
+
+.img-user-info {
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.users-info {
+    display: flex;
+}
+
+.first-name {
+    display: flex;
+    flex-direction: column;
+    text-align: initial;
+    justify-content: center;
+    margin-left: 34px;
+}
+
+.first-name-font {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    letter-spacing: 0.2px;
+    color: #797979;
+    margin-bottom: 7px;
+}
+
+.name-font {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+.user-info-more {
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+}

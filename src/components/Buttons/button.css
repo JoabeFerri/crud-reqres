@@ -1,0 +1,57 @@
+.my-button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    height: 55px;
+    width: 100%;
+    transition: all 0.1s;
+}
+
+.my-button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.my-button:active {
+    opacity: 0.5;
+}
+
+.my-button--primary {
+    background: #000000;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.my-button--primary:disabled {
+    background-color: #00000095 !important;
+    color: white;
+    cursor: not-allowed;
+}
+.my-button:disabled {
+    background-color: #00000095 !important;
+    color: white;
+    cursor: not-allowed; 
+}
+
+.my-button--secondary {
+    background: #F7F7F7;
+    border-radius: 5px;
+    border: none;
+    color: #000000;
+}
+
+.my-button-icon {
+    padding: 0px;
+    border: 0px;
+    background-color: #FFFFFF00;
+    cursor: pointer;
+}
+
+.modal-content-buttons {
+    display: flex;
+    gap: 0.7rem
+}

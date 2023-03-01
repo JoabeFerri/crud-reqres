@@ -1,0 +1,15 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newuser {
+    display: flex;
+    width: 588px;
+    flex-direction: column;
+}
+
+.users-list-content {
+    max-width: 588px;
+}
