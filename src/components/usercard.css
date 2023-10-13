@@ -106,3 +106,38 @@
     height: 22px;
     margin-bottom: 3px;
 }
+
+.user-card-space {
+    width: 588px;
+
+}
+
+@media only screen and (max-width: 640px) {
+.user-card {
+    flex-direction: column;
+    height: 100%;
+    padding: 18px;
+    max-width: 340px;
+    width: 100%;
+}
+
+.img-user {
+    margin: 0px 0px 18px 0px;
+    width: auto;
+}
+
+.info-user{
+    justify-content: center;
+    text-align: center;
+}
+
+.icon-buttons-space {
+    margin: 18px 0px 0px 0px ;
+    margin-left: 0px !important;
+}
+
+.user-card-space {
+    width: 100%;
+    
+}
+}

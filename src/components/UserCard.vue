@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-for="user in users" :key="user.id" style="display: flex;margin-bottom: 15px;">
+    <div v-for="user in users" :key="user.id" style="display: flex;margin-bottom: 15px;justify-content: center;">
         <div class="black-marker"></div>
         
         <div class="user-card">
@@ -13,7 +13,7 @@
     
             </div>
 
-            <div style="margin-left: auto;display: flex;gap: 0.8rem;">
+            <div class="icon-buttons-space" style="margin-left: auto;display: flex;gap: 0.8rem;">
               
               <ButtonIconDefault @onClick="showModalUpdateEvent(user)" >
                 <template v-slot:icon > 
