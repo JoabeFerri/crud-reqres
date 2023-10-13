@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <HeaderOne style="margin-bottom: 40px;"/>
-    <UserCard style="width: 588px;"/>
+    <UserCard class="user-card-space"/>
   </div>
 </template>
 

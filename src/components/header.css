@@ -19,5 +19,13 @@
 }
 
 .space-button {
-    width: 185px;
+    max-width: 185px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 640px) {
+
+    .users-p {
+        font-size: 34px !important;
+    }
 }
