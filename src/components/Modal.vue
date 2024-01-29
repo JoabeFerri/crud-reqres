@@ -10,13 +10,13 @@
 
 <script>
 export default {
-  name: 'Modal',
+  name: "Modal",
   props: {
     showModal: Boolean,
   },
   methods: {
     closeModal() {
-      this.$emit('close');
+      this.$emit("close");
     },
   },
 };
@@ -39,7 +39,7 @@ export default {
   left: 0;
   top: 0;
   width: 100vw;
-  height: 100vw;
+  height: 110%;
   background-color: #00000040;
   z-index: 0;
 }
@@ -58,14 +58,14 @@ export default {
 }
 
 .users-p {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 61px;
-    /* identical to box height */
-    letter-spacing: 0.2px;
-    color: #000000;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  /* identical to box height */
+  letter-spacing: 0.2px;
+  color: #000000;
 }
 
 .modal-close {
