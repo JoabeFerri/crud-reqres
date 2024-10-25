@@ -1,10 +1,12 @@
-import Vue from 'vue'
-import axios from 'axios'
+import axios from 'axios';
 
-axios.defaults.baseURL = 'https://reqres.in/api/'
+const axiosInstance = axios.create({
+  baseURL: 'https://reqres.in/api/'
+});
 
-Vue.use({
-    install(Vue) {
-        Vue.prototype.$http = axios
-    }
-})
+export default {
+  install: (app) => {
+    app.config.globalProperties.$http = axiosInstance;
+    app.provide('http', axiosInstance); // opcional para injeção de dependência
+  }
+};
